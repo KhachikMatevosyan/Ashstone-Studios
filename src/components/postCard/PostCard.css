@@ -1,0 +1,36 @@
+.postCard {
+  max-height: 459px;
+  max-width: 28%;
+}
+img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tags {
+  color: #eb0028;
+  font-weight: 700;
+}
+.title {
+  font-weight: 700;
+  font-size: 24px;
+}
+.autor {
+  font-weight: 500;
+  font-size: 12px;
+}
+.dateViews {
+  color: #9b9b9b;
+  font-weight: 400;
+  font-size: 12px;
+}
+.text {
+  color: #929292;
+  font-weight: 400;
+  font-size: 14px;
+}
+@media (max-width: 430px) {
+  .postCard {
+    max-width: 50%;
+  }
+}
